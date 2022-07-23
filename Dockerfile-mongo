@@ -1,0 +1,2 @@
+FROM openjdk:8-alpine
+COPY target/spring-boot-mongo-1.0.jar $PROJECT_HOME/spring-boot-mongo.jar
